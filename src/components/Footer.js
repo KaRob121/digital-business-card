@@ -3,9 +3,9 @@ import githubIcon from "../images/GitHub Icon.png"
 
 function Footer() {
     return (
-        <div className="footer">
-            <img src={linkedinIcon} />
-            <img src={githubIcon} />
+        <div className="soc-media">
+            <a href="https://www.linkedin.com/in/karlespinosa" target="_blank"><img src={linkedinIcon} /></a>
+            <a href="https://github.com/KaRob121" target="_blank"><img src={githubIcon} /></a>
         </div>
     )
 }
